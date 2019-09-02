@@ -1,0 +1,12 @@
+<aura:component>
+
+<aura:attribute name="msg" type="String"/>
+<aura:handler name="init" value={!this}  action={!c.doInit}  />
+
+
+<p> Hello, {!v.name} </p>
+
+<lightning:input label="Greeting" type="string" value="{!v.name}"/>
+
+
+</aura:component>	
